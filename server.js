@@ -53,7 +53,7 @@ app.post('/purgeUrl', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`CF Cache Purger App listening at http://localhost:${port}`);
 });
 
 const getZoneId = async (domainName) => {
